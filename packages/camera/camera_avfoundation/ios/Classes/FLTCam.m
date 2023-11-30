@@ -364,7 +364,7 @@ NSString *const errorMethod = @"error";
     case FLTResolutionPresetVeryHigh:
       if ([_videoCaptureSession canSetSessionPreset:AVCaptureSessionPreset1920x1080]) {
         _videoCaptureSession.sessionPreset = AVCaptureSessionPreset1920x1080;
-        _previewSize = CGSizeMake(1920, 1080);
+        _previewSize = CGSizeMake(1920, 1440);
         break;
       }
     case FLTResolutionPresetHigh:
